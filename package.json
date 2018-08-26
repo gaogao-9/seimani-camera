@@ -1,0 +1,50 @@
+{
+  "name": "seimani-camera",
+  "version": "1.0.0",
+  "description": "政剣マニフェスティアのキャラクターと一緒に写真撮影",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "migrate": "npm run migrate:latest",
+    "migrate:make": "knex migrate:make",
+    "migrate:latest": "knex migrate:latest",
+    "migrate:rollback": "knex migrate:rollback",
+    "seed": "npm run seed:run",
+    "seed:make": "knex seed:make",
+    "seed:run": "knex seed:run",
+    "lint": "eslint --ext .js,.vue .",
+    "lintfix": "eslint --fix --ext .js,.vue .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaogao-9/seimani-camera.git"
+  },
+  "keywords": [],
+  "author": "gao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaogao-9/seimani-camera/issues"
+  },
+  "homepage": "https://github.com/gaogao-9/seimani-camera#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "nuxt-edge": "^2.0.0-25586998.83d9dc4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.6",
+    "dotenv": "^6.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-sort-imports-es6-autofix": "^0.3.0",
+    "eslint-plugin-vue": "^4.7.1",
+    "prettier": "^1.14.2"
+  }
+}

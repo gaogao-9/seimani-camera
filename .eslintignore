@@ -1,0 +1,11 @@
+# gitignore file
+.gitignore
+
+# dist folder
+dist
+
+# nuxt folder
+.nuxt
+
+# include own rc file
+!.eslintrc.js
