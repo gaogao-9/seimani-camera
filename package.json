@@ -1,5 +1,6 @@
 {
   "name": "seimani-camera",
+  "private": true,
   "version": "1.0.0",
   "description": "政剣マニフェスティアのキャラクターと一緒に写真撮影",
   "main": "index.js",
